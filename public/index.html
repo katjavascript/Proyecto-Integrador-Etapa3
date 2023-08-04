@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="img" sizes=100x100 href="img/cohete1.jpg">
+    <script src="https://kit.fontawesome.com/7d538f928f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+
+<body>
+<h4>Por compras superiores a $ 200.000 domicilo gratis 🚚</h4>
+<header>
+  <img class="slogan" src="img/logo2.png" alt="slogan" width="20%" height="50%">
+  <nav>
+    <a href="#/home" >Inicio</a>
+    <a href="#/create"  class="main-nav__link">Alta</a>
+    <a href="#/contact"  class="main-nav__link">Contacto</a>
+    <a href="#/about-us"  class="main-nav__link">Nosotros</a>
+  </nav>
+</header>
+
+<div class="btn-car">
+    <button class="btn" onclick="OpenCart()">🛒</button>
+  </div>
+  
+  <!-- Carrito modal -->
+  <div class="content-cart-modal" onclick="CloseCart()">
+    <div class="cart-modal-container">
+      <button class="cerrar-modal" onclick="CloseCart()"> ✖</button>
+      <h3> 🛒Mi Carrito </h3>
+      <div class="elementos">
+        <table>
+          <tr>
+            <th>Producto</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cant.</th>
+            <th>Subtotal</th>
+            <th>Acciones</th>
+          </tr>
+          <tr>
+            <td><img src="img/products/Monopolio.png" alt="Monopoly" width="50px" height="50px"></td>
+            <td>Juego de Mesa Monopoly Clásico</td>
+            <td>$ 97.930</td>
+            <td>4</td>
+            <td>$391.720</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td><img src="img/products/Twister.png" alt="Twister" width="50px" height="50px"></td>
+            <td>Juego de Mesa Hasbro Gaming Twister</td>
+            <td>$69.930</td>
+            <td>2</td>
+            <td>$139.860</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td><img src="img/products/babyalive.png" alt="babyalive" width="50px" height="50px"></td>
+            <td>Muñeca Baby Alive Bebé Soniditos Rubia</td>
+            <td>$119.900</td>
+            <td>3</td>
+            <td>$359.700</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td><img src="img/products/setbebemochila.png" alt="bebemochila" width="50px" height="50px"></td>
+            <td>Set Bebé con Mochila - Dream Collection</td>
+            <td>$159.900</td>
+            <td>1</td>
+            <td>$159.900</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td><img src="img/products/bebe gatito.png" alt="bebegatito" width="50px" height="50px"></td>
+            <td>Bebé Gatito con Vestido Rosada - My Garden Baby</td>
+            <td>$329.900</td>
+            <td>1</td>
+            <td>$329.900</td>
+            <td>🗑</td>
+          </tr>
+          <tfoot>
+          <td colspan="4"></td>
+          <td>$1.381.080</td>
+          <td></td>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+
+<div id="container-body"></div>
+
+
+
+<footer>
+    <h2><i>Sé el primero en enterarte de todas las novedades</i></h2>
+        <div class="row primary">
+                
+            <div class="column about">
+            
+            <h3>Juguetería Cósmica</h3>
+                
+            <div class="social1">
+            <i><a href="#"><span><img src="img/redessociales/icono_facebook.png" alt="Facebook"></span></a> </i>
+                
+            <i><a href="#"> <span><img src="img/redessociales/icono_instagram.png" alt="Instagram"></span></a></i>
+                        
+            <i><a href="#"> <span><img src="img/redessociales/icono_twitter.png" alt="Twitter"></span></a></i>
+                        
+            <i><a href="#"> <span><img src="img/redessociales/icono_youtube.png" alt="YouTube"></span></a></i>
+            
+            <i><a href="#"> <span><img src="img/redessociales/icono_whatapps.png" alt="WhatApps"></span></a></i>
+            </div>
+            </div>
+            
+            <div class="column links">
+            <h3><i>Nosotros</i></h3>        
+            <ul>            
+            <li><a href="contact.html" title="nuestra historia" class="links-footer">Nuestra historia</a></li>
+            <li><a href="contact.html" title="responsabilidad social" class="links-footer">Responsabilidad Social</a></li>
+            <li><a href="contact.html" title="trabaja con nosotros" class="links-footer">Trabaja con nosotros</a></li>
+            <li><a href="contact.html" title="tiendas" class="links-footer">Tiendas</a></li>
+            </ul>
+            </div>
+            
+            <div class="column links">
+            <h3><i>Compras</i></h3> 
+            <ul>
+            <li><a href="contact.html" title="Medios de Pago" class="links-footer">Medios de Pago</a></li>
+            <li><a href="contact.html" title="Promociones" class="links-footer">Promociones</a></li>
+            <li><a href="contact.html" title="contactos" class="links-footer">Contacto</a></li>
+            <li><a href="contact.html" title="Redes sociales" class="links-footer">Redes sociales</a></li>
+            </ul>
+            </div>
+            
+            <div class="column subscribe">
+            <h3><i>Suscríbete</i></h3>  
+                    <div>       
+                        <input type="email" placeholder="Ingresa tu email" />
+                        <button>Listo</button>
+                    </div>                
+            </div>        
+            
+            </div>    
+            
+        <div class="row copyright">
+            <div class="footer-menu">                                                   
+                <a href="index.html"title="inicio">Inicio</a>
+                <a href="create.html" title="alta">Alta</a>
+                <a href="contact.html"  title="contacto">Contacto</a>
+                <a href="about-us.html" title="nosotros">Nosotros</a>
+            </div>
+    
+        <p>Proyecto Integrador: Juguetería Cósmica - Katriny Pérez Fábrega</p>
+        </div>
+    
+        <!-- whatsapp -->
+        <a href="https://api.whatsapp.com/send?phone=+573194258743" class="btn-wsp" target="_blank">
+            <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+        </a>
+    
+    </footer>
+    
+
+<script src="js/main.js"></script>
+</body>
+</html>

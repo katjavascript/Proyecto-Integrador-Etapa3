@@ -1,0 +1,112 @@
+<h1>Formulario de Alta</h1>
+
+    <form id="form">
+<section class="formulario-seccion">
+        <div class="formulario-columna1">
+
+
+            <label for="name">Nombre*</label>
+            <input type="text" id="nombre" name="nombre" required minlength="2" maxlength="70"
+                placeholder="Digite el nombre del juguete"> <br>
+
+            <label for="price"> Precio* </label>
+            <input type="number" id="precio" name="precio" required placeholder="Ingrese el precio del juguete"> <br>
+
+            <label for="stock">Stock*</label>
+            <input type="number" id="stock" min="0" max="24" id="stock" name="stock" required
+                placeholder="Ingresa la cantidad disponible"> <br>
+
+            <label for="brand"> Marca* </label>
+            <select id="brand" name="brand" required>
+                <option value="">-Seleccionar-</option>
+                <option value="1"> Kiddoh</option>
+                <option value="2"> Fisher Price</option>
+                <option value="3"> Mattel</option>
+                <option value="4"> Lego </option>
+                <option value="5">Play Doh </option>
+                <option value="6"> Ronda</option>
+                <option value="7"> Hasbro</option>
+                <option value="8"> Barbie </option>
+                <option value="9"> Star Wars</option>
+                <option value="10"> Priori </option>
+            </select><br>
+
+            <label for="category"> Categoría* </label>
+            <select id="category" name="category" required>
+                <option value="">-Seleccionar-</option>
+                <option value="1">Muñecas</option>
+                <option value="2">Juegos de mesa</option>
+                <option value="3">Arte y manualidades</option>
+                <option value="4">Disfraces</option>
+                <option value="5">Juegos al aire libre</option>
+                <option value="6">Deportes</option>
+                <option value="7">Vehículos y pistas</option>
+                <option value="8">Panini</option>
+                <option value="9">Bebés</option>
+                <option value="10">Lencería</option>
+            </select> <br>
+
+            <div class="edad">
+                <div>
+                    <label for="edad-desde">Edad desde *:</label>
+                    <input type="number" min="0" max="99" id="edad-desde" name="edad-desde" required>
+                </div>
+                <div class="input-radio">
+                    <input type="radio" id="meses-desde" name="edad-desde" value="meses-desde" required checked>
+                    <label for="meses-desde">Meses</label>
+                    <input type="radio" id="años-desde" name="edad-desde" value="años-desde">
+                    <label for="años-desde">Años</label>
+                </div>
+            </div>
+
+            <div class="edad">
+                <div>
+                    <label for="edad-hasta">Edad hasta *:</label>
+                    <input type="number" min="1" max="99" id="edad-hasta" name="edad-hasta" required>
+                </div>
+
+                <div class="input-radio">
+                    <input type="radio" id="meses-hasta" name="edad-hasta" value="meses-hasta" required checked>
+                    <label for="meses-hasta">Meses</label>
+                    <input type="radio" id="años-hasta" name="edad-hasta" value="años-hasta">
+                    <label for="años-hasta">Años</label>
+                </div> <br>
+            </div>
+
+            <Label>Envío sin cargo *:</Label><br>
+
+            <div class="envio">
+                <input type="radio" id="sincargo" name="envio" checked required>
+                <label for="sincargo">Si</label>
+
+                <input type="radio" id="concargo" name="envio">
+                <label for="concargo">No</label>
+            </div>
+
+        </div>
+
+        <div class="formulario-columna2">
+            <label for="short-description"> Descripción Corta </label>
+            <textarea name="descripcióncorta" id="descripcióncorta" cols="30" rows="10" minlength="10" maxlength="200"
+                placeholder="Indicar palabras claves de los juguetes" required></textarea> <br>
+
+            <label for="long-description"> Descripción Larga </label>
+            <textarea name="descripciónlarga" id="descripciónlarga" cols="30" rows="10" minlength="10" maxlength="2000"
+                placeholder="Describir materiales y usos de los juguetes" required></textarea> <br>
+
+            <label for="foto"> Foto </label>
+            <input type="file" accept="image/*" id="foto" name="foto" required> <br>
+
+            <div class="btn-create-container">
+                <input type="submit" id="btn" class="btn-create" value="Enviar">
+            </div>
+        </div>
+</section>
+    </form>
+
+<section class="section-products-table">
+    <h2>Listado de productos</h2>
+    <div class="products-table-container">
+        <table id="cart-table"></table>
+    </div>
+</section>

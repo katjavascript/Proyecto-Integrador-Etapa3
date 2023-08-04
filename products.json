@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Barbie Casa de los sueños",
+    "price": 1399900,
+    "description": "Deja volar tu imaginación con nuevas aventuras en la casa de los sueños de Barbie",
+    "image": "img/products/casa-de-barbie.jpeg",
+    "send": "Envio Gratis",
+    "discount": 20
+  },
+  {
+    "name": "Adivina Quien",
+    "price": 89109,
+    "description": "Saca lo mejor de tu imaginación para descubrir a tu oponente, No te dejes descubrir",
+    "image": "img/products/adivina-quien-soy.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  },
+  {
+    "name": "Set cocinita infantil Maletin Kitchen",
+    "price": 59000,
+    "description": "Ahora tu cocinita es viajera  podrás llevarla a todas partes",
+    "image": "img/products/bolso-de-cocinita.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  },
+  {
+    "name": "Carro control remoto Camión Bomberos",
+    "price": 159900,
+    "description": "Apaga el fuego con este increíble Camión de bomberos, incluye la escalera",
+    "image": "img/products/camión-bomberos.jpeg",
+    "send": "Envio Gratis",
+    "discount":  10
+  },
+  {
+    "name": "Carro montale niño niña moto jeep recargable eléctrico",
+    "price": 995000,
+    "description": "Llena tus hijos de nuevas experiencias mientras viajan en este increíble auto.",
+    "image": "img/products/carro-montable.jpeg",
+    "send": "Envio Gratis",
+    "discount": 30
+  },
+  {
+    "name": "Carros Mario Kart Super Mario Bros",
+    "price": 199990,
+    "description": "Que esperas para adquirir la colección completa?",
+    "image": "img/products/carros-mario.jpeg",
+    "send": "Envio Gratis",
+    "discount": "Descuento 10%"
+  },
+  {
+    "name": "Cocinita niño niña",
+    "price": 1668618,
+    "description": "Con esta increíble cocinita podrás invitar a tus amigos y preparar las mejores comidas",
+    "image": "img/products/cocinita-niño-niña.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  },
+  {
+    "name": "Comida de juguete para cocinita",
+    "price": 338990,
+    "description": "Con esta comidita no te perderás de cocinar los mejores platillos.",
+    "image": "img/products/comida-de-cocinita.jpeg",
+    "send": "Envio Gratis",
+    "discount":  10
+  },
+  {
+    "name": "Computador didáctico",
+    "price": 143910,
+    "description": "Incluye 130 actividades para que aprendan jueguen y se diviertan",
+    "image": "img/products/computador-didactico.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  },
+  {
+    "name": "Hot wheels paquete de 20 autos",
+    "price": 160110,
+    "description": "Tu hijo se llenará de emoción con los autos Coleccionables de Hot wheels",
+    "image": "img/products/hot-wheels.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  },
+  {
+    "name": "Juego de mesa Risk Hasbro",
+    "price": 189900,
+    "description": "Disfruta con toda tu familia de este maravilloso juego",
+    "image": "img/products/juego-de-mesa-risk.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  },
+  {
+    "name": "Monopoly",
+    "price": 105000,
+    "description": "Que esperas para tener tu propiedad y construir casas y edifios? Diviértete con tu familia con Monopoly",
+    "image": "img/products/monopoly.jpeg",
+    "send": "Envio Gratis",
+    "discount":  10
+  },
+  {
+    "name": "Nenuco Cura Sana",
+    "price": 257999,
+    "description": "Incluye el kit de curitas",
+    "image": "img/products/nenuco-cura-sana.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  },
+  {
+    "name": "Pista de Carros Tiranosaurio Rex",
+    "price": 148000,
+    "description": "set Dino-cars Sonidos y más",
+    "image": "img/products/pista-de-carros-dinosaurio.jpeg",
+    "send": "Envio Gratis",
+    "discount":10
+  },
+  {
+    "name": "Pista de 240 piezas Diseño Dinosaurio",
+    "price": 130000,
+    "description": "Sumérgete en una increíble aventura con los Dinosaurios más asombrosos.",
+    "image": "img/products/pista-dinosaurio.jpeg",
+    "send": "Envio Gratis",
+    "discount":  10
+  },
+  {
+    "name": "Ríe y aprende perri",
+    "price": 215910,
+    "description": "Perri se convertirá en el mejor amigo de tu hijo, aprenderá y se reirá",
+    "image": "img/products/rie-y-aprende.jpeg",
+    "send": "Envio Gratis",
+    "discount": 20
+  },
+  {
+    "name": "Set de banda musical, contiene 10 piezas.",
+    "price": 59990,
+    "description": "Saca ese artista qué tu hijo lleva dendro y exploren juntos los sonidos de los instrumentos",
+    "image": "img/products/set-musical.jpeg",
+    "send": "Envio Gratis",
+    "discount": 10
+  }
+]
